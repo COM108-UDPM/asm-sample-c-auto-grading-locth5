@@ -3,7 +3,8 @@
 
 int main() {
     int so1, so2;
-    int Tong;
+    int Tong; 
+    int hieu = 0;
 
     printf("Nhap vao so thu nhat: ");
     scanf("%d", &so1);
@@ -14,6 +15,6 @@ int main() {
     Tong = Tinh_Tong(so1, so2);
 
     printf("Tong hai so la: %d\n", Tong);
-
+//Commeteee them 
     return 0;
 }
